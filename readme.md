@@ -1,4 +1,4 @@
-# Example test Algorithms 
+# Test Algorithms 
 
 ### Task 1: 
     
@@ -21,3 +21,7 @@ Cho mảng A gồm n phần tử A = [a1, a2, ...., an]. Cho biết trước m�
 Đảo chuỗi. Cho chuỗi S, tìm chuỗi đảo ngược của chuỗi S.
 
     Example: S = 'abcd' thì chuỗi đảo ngược là S_đảo = 'dcba'
+
+### Task 5: 
+
+Cho 1 mảng A có n phần tử A = [a1, a2, ...., an]. Viết chương trình tìm ra số lớn nhất trong mảng A.
