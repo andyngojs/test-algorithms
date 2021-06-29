@@ -1,5 +1,9 @@
 # Test Algorithms 
 
+### Require:
+
+Chỉ dùng vòng lặp For thuần (không được dùng những hàm build sẵn )
+
 ### Task 1: 
     
 Cho mảng A có n phần tử A = [a1, a2,...., an] và một số k. Viết chương trình xác định phần tử k có trong mảng A hay không? 
