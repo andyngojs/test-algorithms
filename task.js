@@ -23,3 +23,16 @@ function convertString(str) {
 
 convertString('dong ngo')
 
+// Task 5:
+function findMax(arr) {
+    let max = arr[0]
+    for (var i = 0; i < arr.length; i++) {
+        if (max < arr[i]) {
+            max = arr[i]
+
+            console.log(max)
+        }
+    }
+}
+
+findMax([3, 5, 2, 7, 9])
