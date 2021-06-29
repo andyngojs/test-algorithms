@@ -5,11 +5,8 @@ function check(arr, k) {
             isInclude = true
         }
     }
-    if (isInclude) {
-        console.log('có tồn tại phần tử k = ' + k + ' trong mảng ' + arr)
-    } else {
-        console.log('không tồn tại phần tử k = ' + k + ' trong mảng ' + arr)
-    }
+    isInclude ? console.log('có tồn tại phần tử k = ' + k + ' trong mảng ' + arr) 
+        : console.log('không tồn tại phần tử k = ' + k + ' trong mảng ' + arr)
 }
 
 check([1,2,3,4,5], 3)
