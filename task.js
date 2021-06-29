@@ -16,7 +16,6 @@ function convertString(str) {
     var newString = ''
     for (var i = str.length - 1; i >= 0; i--) {
         newString += str[i]
-        
     }
     console.log('New String: ' + newString)
 }
@@ -26,12 +25,11 @@ convertString('dong ngo')
 // Task 5:
 function findMax(arr) {
     let max = arr[0]
-    for (var i = 0; i < arr.length; i++) {
+    for (var i = 1; i < arr.length; i++) {
         if (max < arr[i]) {
             max = arr[i]
-
-            console.log(max)
         }
+        console.log(max)
     }
 }
 
