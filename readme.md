@@ -16,7 +16,9 @@ Số nguyên tố là một số nguyên chia hết cho hai số khác nhau là 
 
 ### Task 3: 
 
-Cho mảng A gồm n phần tử A = [a1, a2, ...., an]. Cho biết trước một số k. Kiểm tra xem trong mảng có tồn tại 2 phần tử mà tổng bằng số k hay không.
+Cho mảng A gồm n phần tử A = [a1, a2, ...., an]. Cho biết trước một số k. Kiểm tra xem trong mảng có tồn tại 2 phần tử mà tổng bằng số k hay 
+
+không.
 
     Example: cho A = [1, 2, 3, 4, 10] và k = 13. Mảng A có tồn tại 2 phần tử là 3 và 10 vì có tổng là 13 = k
 
