@@ -1,8 +1,6 @@
 # Test Algorithms 
 
-## Require:
-
-Chỉ dùng vòng lặp For thuần (không được dùng những hàm build sẵn )
+**Require**: Chỉ dùng vòng lặp For thuần (không được dùng những hàm build sẵn )
 
 ### Task 1: 
     
