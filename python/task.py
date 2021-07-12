@@ -19,3 +19,13 @@ def check():
         print('Không có tồn tại phần tử k trong mảng')
 
 check()
+
+# Task 2:
+def checkPrime():
+    n = int(input('Enter your prime number: '))
+    if n % 2 != 0:
+        print('is Prime')
+    else:
+        print('not a prime')
+
+checkPrime()
