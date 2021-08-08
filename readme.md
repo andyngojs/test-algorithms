@@ -29,3 +29,9 @@ Example: S = 'abcd' thì chuỗi đảo ngược là S_đảo = 'dcba'
 ### Task 5: 
 
 Cho một mảng A có n phần tử A = [a1, a2, ...., an]. Viết chương trình tìm ra số lớn nhất trong mảng A.
+
+### Task 6:
+
+Cho 2 Array. Hãy tìm ra các giá trị bằng nhau giữa hai array.
+
+Example: Input: [1, 2, 6, 8], [2, 9, 6] - Output: [2, 6]
