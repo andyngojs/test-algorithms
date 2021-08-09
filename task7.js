@@ -1,3 +1,5 @@
+// Task 7: What output ?
+
 var tip = 100;
 
 (function () {
