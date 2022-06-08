@@ -35,3 +35,7 @@ Cho một mảng A có n phần tử A = [a1, a2, ...., an]. Viết chương tr�
 Cho 2 Array. Hãy tìm ra các giá trị bằng nhau giữa hai array.
 
 Example: Input: [1, 2, 6, 8], [2, 9, 6] - Output: [2, 6]
+
+### Task 8: 
+
+Tạo  mảng 2 chiều.
