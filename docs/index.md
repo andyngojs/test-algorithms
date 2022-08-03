@@ -1,37 +1,92 @@
-## Welcome to GitHub Pages
+# Cùng nhau luyện tập thuật toán - Let’s practice algorithms together
 
-You can use the [editor on GitHub](https://github.com/andyngojs/TestAlgorithms/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+**Date Release**: 3-8-2022
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Author**: AndyngoJs
 
-### Markdown
+**Contributors**: 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Require
+- Chỉ dùng vòng lặp For thuần (không được dùng những hàm build sẵn).
+- Hạn chế sử dụng thư viện hay code mẫu.
+- Clean code và tối ưu hiệu suất.
 
-```markdown
-Syntax highlighted code block
+### Note
+- Sử dụng bất kỳ ngôn ngữ lập trình nào (Javascript, Java, C#, C/C++, …..)
+- **Cố gắng tự suy nghĩ thuật toán, chỉ search khi đã vượt qua cực hạn của bản thân**.
 
-# Header 1
-## Header 2
-### Header 3
+## Let's started
 
-- Bulleted
-- List
+### Task 1
+Tạo mảng 2 chiều.
 
-1. Numbered
-2. List
+### Task 2
+Cho mảng A có n phần tử A = [a1, a2,…., an] và một số k. Viết chương trình xác định phần tử k có trong mảng A hay không?
 
-**Bold** and _Italic_ and `Code` text
+### Task 3
+Số nguyên tố là một số nguyên chia hết cho hai số khác nhau là 1 và chính nó. Viết chương trình kiểm tra tính nguyên tố của một số nguyên.
 
-[Link](url) and ![Image](src)
+Example: số 3 là số nguyên tố vì số 3 chỉ chia hết cho 1 và 3. số 4 không là số nguyên tố vì số 4 chia hết cho 4, 2, 1.
+
+### Task 4
+Đảo chuỗi. Cho chuỗi S, tìm chuỗi đảo ngược của chuỗi S.
+
+Example: Input: ‘abcd’ - Output: ‘dcba’
+
+### Task 5
+Cho mảng A gồm n phần tử A = [a1, a2, …., an]. Cho biết trước một số k. Kiểm tra xem trong mảng có tồn tại 2 phần tử mà tổng bằng số k hay không ?
+
+Example: cho A = [1, 2, 3, 4, 10] và k = 13. Mảng A có tồn tại 2 phần tử là 3 và 10 vì có tổng là 13 = k
+
+### Task 6
+Cho một mảng A có n phần tử A = [a1, a2, …., an]. Viết chương trình tìm ra số lớn nhất trong mảng A.
+
+### Task 7
+Cho 2 mảng một chiều. Hãy tìm ra các phần tử bằng nhau giữa hai mảng.
+
+Example: Input: [1, 2, 6, 8], [2, 9, 6] - Output: [2, 6]
+
+### Task 8
+Cho đoạn code mẫu. Hãy tìm output
+```
+var tip = 100;
+
+function sample() {
+    console.log("I have $" + husband());
+
+    function wife() {
+        return tip * 2;
+    }
+
+    function husband() {
+        return wife() / 2;
+    }
+
+    var tip = 10;
+}
+
+sample();
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+A. I have $100
 
-### Jekyll Themes
+B. I have $10
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/andyngojs/TestAlgorithms/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+C. I have $NaN
 
-### Support or Contact
+### Task 9
+Cho mảng một chiều A gồm n phần tử. Hãy chuyển đổi mảng A thành mảng 2 chiều.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Example:
+```
+From 
+	[1, 2, 3, 4, 5, 6, 7, 8,  9, 10]
+to
+	[
+		[   1  ,   5  ,   9   ],  	
+		[   2  ,   6  ,  10  ],  		
+		[   3  ,   7  ],	       		
+		[   4  ,   8  ],         
+	]
+```
+
