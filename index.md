@@ -1,5 +1,14 @@
 ## Cùng nhau luyện tập thuật toán. (Let's practice algorithms together)
 
+## Authors
+
+AndyNgoJs
+
+## Contributors
+
+
+---
+
 **Require**: 
 
 -   Chỉ dùng vòng lặp For thuần (không được dùng những hàm build sẵn )
@@ -30,17 +39,17 @@ Example: số 3 là số nguyên tố vì số 3 chỉ chia hết cho 1 và 3. s
 
 ### Task 4: 
 
+Đảo chuỗi. Cho chuỗi S, tìm chuỗi đảo ngược của chuỗi S.
+
+Example: S = 'abcd' thì chuỗi đảo ngược là S_đảo = 'dcba'
+
+### Task 5: 
+
 Cho mảng A gồm n phần tử A = [a1, a2, ...., an]. Cho biết trước một số k. Kiểm tra xem trong mảng có tồn tại 2 phần tử 
 
 mà tổng bằng số k hay không.
 
 Example: cho A = [1, 2, 3, 4, 10] và k = 13. Mảng A có tồn tại 2 phần tử là 3 và 10 vì có tổng là 13 = k
-
-### Task 5: 
-
-Đảo chuỗi. Cho chuỗi S, tìm chuỗi đảo ngược của chuỗi S.
-
-Example: S = 'abcd' thì chuỗi đảo ngược là S_đảo = 'dcba'
 
 ### Task 6: 
 
