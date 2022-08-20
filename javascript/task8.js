@@ -1,21 +1,25 @@
-let arrTotal2D = new Array();
+/**
+ * 
+ * @param {number} x : row number in 2D Array
+ * @param {number} y : column number in 2D Array
+ * @returns 2D Array
+ */
+ function get2DArray(x, y) {
+  let arr = new Array();
+  let el = 0;
 
-for (let row = 0; row < 6; row++) {
-  arrTotal2D.push([])
-  for (let col = 0; col < 5; col++) {
-    arrTotal2D[row][col] = {value: '', status: 'normal'}
+  for (let i = 0; i < x; i++) {
+    arr[i] = new Array();
+    for (let j = 0; j < y; j++) {
+      if (j > 0 || i > 0) {
+        el += 1;
+      }
+      arr[i][j] = el;
+    }
   }
+
+  return arr;
 }
 
-console.log(arrTotal2D)
-
-// Output Array 2D
-
-// [
-//     [{...}, {...}, {...}, {...}, {...}]
-//     [{...}, {...}, {...}, {...}, {...}]
-//     [{...}, {...}, {...}, {...}, {...}]
-//     [{...}, {...}, {...}, {...}, {...}]
-//     [{...}, {...}, {...}, {...}, {...}]
-//     [{...}, {...}, {...}, {...}, {...}]
-// ]
+// EXAMPLE
+console.log(get2DArray(3, 5));
