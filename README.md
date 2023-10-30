@@ -1,14 +1,10 @@
 # Let’s practice algorithms together
 
-## Authors
+> Link practice algorithms: 
+>  https://andyngojs.github.io/TestAlgorithms
 
-AndyNgoJs
+
+## Authors
+Dong Ngo (AndyNgoJs)
 
 ## Contributors
-
-
----
-
-Practice Algorithms now: https://andyngojs.github.io/TestAlgorithms
-
-

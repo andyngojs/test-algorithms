@@ -1,6 +1,8 @@
 # Cùng nhau luyện tập thuật toán - Let’s practice algorithms together
 
-**Date Release**: 3-8-2022
+**Release Date**: 3-8-2022
+
+**Updated Date**: 31-10-2023
 
 **Author**: AndyngoJs
 
@@ -48,7 +50,7 @@ Example: Input: [1, 2, 6, 8], [2, 9, 6] - Output: [2, 6]
 
 ### Task 8
 Cho đoạn code mẫu. Hãy tìm output
-```
+```js
 var tip = 100;
 
 function sample() {
@@ -83,10 +85,22 @@ From
 	[1, 2, 3, 4, 5, 6, 7, 8,  9, 10]
 to
 	[
-		[   1  ,   5  ,   9   ],  	
+		[   1  ,   5  ,   9  ],  	
 		[   2  ,   6  ,  10  ],  		
 		[   3  ,   7  ],	       		
 		[   4  ,   8  ],         
 	]
 ```
 
+### Task 10
+Tìm phần tử không nằm trong điểm giao (điểm chung) giữa 2 mảng. (Finding different elements is not in the combined zone between 2 arrays.)
+
+example:
+```js
+input
+    array1 = [4, 6, 7, 8, 9]
+    array2 = [4, 7, 9, 10]
+
+output
+    [6, 8]
+```
