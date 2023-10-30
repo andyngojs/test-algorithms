@@ -1,7 +1,7 @@
 # Let’s practice algorithms together
 
-> Link practice algorithms: 
->  https://andyngojs.github.io/TestAlgorithms
+> Link to practice algorithms: 
+>  https://andyngojs.github.io/test-algorithms
 
 
 ## Authors
