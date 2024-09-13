@@ -1,5 +1,3 @@
-# Let’s practice algorithms together
-
 
 ## Authors
 
